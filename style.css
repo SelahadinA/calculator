@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: rgb(15, 98, 109);
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: rgb(18, 34, 53);
+    border-radius: 5%;
+    width: 300px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     box-shadow: 0 0 26px orangered,
+    0 0 26px orangered;
+}
+.inputfield{
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+    color: rgb(41, 165, 30);
+    border-radius: 5%;
+}
+.display{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(226, 211, 211);
+    color: aquamarine;
+    border-radius: 10px;
+}
+.btn-1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button{
+    width: 55px;
+    height: 55px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(26, 122, 167);
+    color: rgb(112, 10, 10);
+    border: 2px solid transparent;
+}
+.num-1{
+    background-color: green;
+}
+.num-2{
+    background-color: yellow;
+}
+.num-3{
+    background-color: red;
+}
+
+.operators{
+    background-color: blue;
+}
