@@ -44,7 +44,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    padding: 25px;
+    padding: 60px 25px;
 }
 
 button{
@@ -76,4 +76,8 @@ button:hover{
 
 .operators{
     background-color: blue;
+}
+
+.num-00{
+    column-span: 2;
 }
